@@ -1,0 +1,154 @@
+body{
+  font-family:asap;
+  color:black;
+}
+
+a:link {
+    text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+  font-weight:bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+} 
+
+ul:first-child{
+  margin-left:10px;
+}
+
+ul li {
+  float:left;
+  margin:8px;
+  padding-top:15px;
+
+}
+
+#top{
+  margin-top:20px;
+  margin-right:10px;
+  background-color: rgba(150, 150, 150, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#top:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+#box{
+	width:100%;
+	margin:auto;
+	margin-top:30px;
+	
+	display:flex;
+}
+
+#main{
+
+ 
+  margin-top:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-basis:60%;
+}
+
+#pict {
+	width:30%;
+	float:left;
+}
+
+#pict img{
+margin:auto;
+}
+
+#intro{
+	width:60%;
+	float:left;
+	margin-left:0px;
+}
+
+#intro > p {
+	text-align: justify;
+	line-height: 1.6;
+	padding:0px 10px 0px 10px;
+	
+}#main > div {
+	padding:20px 0px 20px;
+	margin:2%;
+}
+#intro > p {
+	text-align: justify;
+	line-height: 1.6;
+	padding:0px 5px 0px 5px;
+}
+
+#signature{
+	font-family: 'Stalemate', sans-serif;
+	font-size: 250%;
+	width:90%;
+	text-align:right;
+	padding:10px;
+}
+
+#left_flank{
+	flex-basis:20%;
+	
+}
+
+#social_media {
+	
+	flex-basis:20%;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.fa-facebook {
+  background: rgba(20, 20, 20, 0.5);
+  color: white;
+}
+
+.fa-linkedin {
+  background: rgba(20, 20, 20, 0.5);
+  color: white;
+}
+
+#social_media{	
+
+flex-basis:20%;}
+
+#social_media:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+#social_media a{
+	color:white;
+}
+
+#social_media li{
+	clear: left;
+	float:left;
+}
+
+#social_media ul{
+	
+	float:right;
+}
+
+
